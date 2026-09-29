@@ -138,7 +138,10 @@ CI (`.github/workflows/tests.yml`) runs the offline suite on every push. The liv
 
 ## Related
 
-- [link]
+- [ko-tc-playwright](https://github.com/tmkim0512-max/ko-tc-playwright) — turns Korean manual test cases into Playwright (pytest) code; reports conversion rate and real run results separately
+- [evidence-gated-e2e-loop](https://github.com/tmkim0512-max/evidence-gated-e2e-loop) — accepts AI-written Playwright tests only on file evidence, then replays them without AI
+- [false-green-guard](https://github.com/tmkim0512-max/false-green-guard) — detects diffs that turn tests green by neutralizing them and re-judges fixes on an isolated copy
+- [parking-api-qa-lab](https://github.com/tmkim0512-max/parking-api-qa-lab) — a small parking API tested with pytest, a hand-built mock server, k6 thresholds and GitHub Actions
 
 ## License
 
