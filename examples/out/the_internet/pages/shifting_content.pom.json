@@ -1,0 +1,69 @@
+{
+  "$schema": "pom-scout/pom-v1",
+  "version": "1.0.0",
+  "page_id": "shifting_content",
+  "url_pattern": "/shifting_content",
+  "last_verified": "2026-09-29T08:01:07Z",
+  "zones": {
+    "main": {
+      "elements": {
+        "a": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"https://github.com/tourdedave/the-internet\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "example_1_menu_element": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/shifting_content/menu\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "example_2_an_image": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/shifting_content/image\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "example_3_list": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/shifting_content/list\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "elemental_selenium": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"http://elementalselenium.com/\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        }
+      }
+    }
+  },
+  "unresolved_elements": []
+}

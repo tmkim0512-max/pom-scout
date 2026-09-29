@@ -1,0 +1,25 @@
+{
+  "$schema": "pom-scout/pom-v1",
+  "version": "1.0.0",
+  "page_id": "infinite_scroll_3",
+  "url_pattern": "/infinite_scroll/3",
+  "last_verified": "2026-09-29T08:01:45Z",
+  "zones": {
+    "main": {
+      "elements": {
+        "next_page": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/infinite_scroll/4\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        }
+      }
+    }
+  },
+  "unresolved_elements": []
+}

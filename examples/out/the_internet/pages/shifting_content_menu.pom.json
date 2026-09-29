@@ -1,0 +1,124 @@
+{
+  "$schema": "pom-scout/pom-v1",
+  "version": "1.0.0",
+  "page_id": "shifting_content_menu",
+  "url_pattern": "/shifting_content/menu",
+  "last_verified": "2026-09-29T08:01:50Z",
+  "zones": {
+    "main": {
+      "elements": {
+        "a": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"https://github.com/tourdedave/the-internet\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "click_here": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/shifting_content/menu?mode=random\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "click_here_2": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/shifting_content/menu?pixel_shift=100\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "click_here_3": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/shifting_content/menu?mode=random&pixel_shift=100\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "home": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "about": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/about/\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "contact_us": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/contact-us/\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "portfolio": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/portfolio/\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "gallery": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/gallery/\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "elemental_selenium": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"http://elementalselenium.com/\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        }
+      }
+    }
+  },
+  "unresolved_elements": []
+}

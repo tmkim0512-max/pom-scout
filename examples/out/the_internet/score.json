@@ -1,0 +1,40 @@
+{
+  "pages": {
+    "golden": 44,
+    "found": 44,
+    "recall": 1.0,
+    "missing": [],
+    "not_in_golden": 116
+  },
+  "dispositions": {
+    "golden": 52,
+    "match": 50,
+    "accuracy": 0.9615,
+    "confusion": {
+      "DUPLICATE -> DUPLICATE": 1,
+      "GONE -> GONE": 2,
+      "LOGIN_WALL -> LOGIN_WALL": 1,
+      "PERMISSION_WALL -> PERMISSION_WALL": 3,
+      "REACHED -> EMPTY": 1,
+      "REACHED -> REACHED": 41,
+      "REACHED -> SKIPPED_UNSAFE": 1,
+      "SKIPPED_UNSAFE -> SKIPPED_UNSAFE": 1,
+      "UNDECIDED -> UNDECIDED": 1
+    },
+    "mismatches": {
+      "/nested_frames": "EMPTY",
+      "/add_remove_elements/": "SKIPPED_UNSAFE"
+    }
+  },
+  "selectors": {
+    "elements": 307,
+    "unresolved": 67,
+    "unique_ratio": 1.0,
+    "fallback_ge_2_ratio": 0.0,
+    "primary_tier": {
+      "tier1": 13,
+      "tier2": 294
+    },
+    "forbidden": 0
+  }
+}

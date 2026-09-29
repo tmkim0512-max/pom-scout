@@ -1,0 +1,91 @@
+{
+  "$schema": "pom-scout/pom-v1",
+  "version": "1.0.0",
+  "page_id": "disappearing_elements",
+  "url_pattern": "/disappearing_elements",
+  "last_verified": "2026-09-29T08:01:24Z",
+  "zones": {
+    "main": {
+      "elements": {
+        "a": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"https://github.com/tourdedave/the-internet\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "home": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "about": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/about/\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "contact_us": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/contact-us/\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "portfolio": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/portfolio/\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "gallery": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/gallery/\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "elemental_selenium": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"http://elementalselenium.com/\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        }
+      }
+    }
+  },
+  "unresolved_elements": []
+}

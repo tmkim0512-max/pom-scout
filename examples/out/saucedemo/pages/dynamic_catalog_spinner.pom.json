@@ -1,0 +1,81 @@
+{
+  "$schema": "pom-scout/pom-v1",
+  "version": "1.0.0",
+  "page_id": "dynamic_catalog_spinner",
+  "url_pattern": "/dynamic-catalog-spinner.html",
+  "last_verified": "2026-09-29T07:56:46Z",
+  "zones": {
+    "header": {
+      "elements": {
+        "react_burger_menu_btn": {
+          "role": "button",
+          "selectors": [
+            "#react-burger-menu-btn"
+          ],
+          "strategies": [
+            "id"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "shopping_cart_link": {
+          "role": "button",
+          "selectors": [
+            "[data-test=\"shopping-cart-link\"]",
+            "a[aria-label=\"Cart, empty\"]"
+          ],
+          "strategies": [
+            "test_id",
+            "aria_label"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        }
+      }
+    },
+    "footer": {
+      "elements": {
+        "social_x": {
+          "role": "a",
+          "selectors": [
+            "[data-test=\"social-x\"]",
+            "a[href=\"https://x.com/saucelabs\"]"
+          ],
+          "strategies": [
+            "test_id",
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "social_facebook": {
+          "role": "a",
+          "selectors": [
+            "[data-test=\"social-facebook\"]",
+            "a[href=\"https://www.facebook.com/saucelabs\"]"
+          ],
+          "strategies": [
+            "test_id",
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "social_linkedin": {
+          "role": "a",
+          "selectors": [
+            "[data-test=\"social-linkedin\"]",
+            "a[href=\"https://www.linkedin.com/company/sauce-labs/\"]"
+          ],
+          "strategies": [
+            "test_id",
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        }
+      }
+    }
+  },
+  "unresolved_elements": []
+}

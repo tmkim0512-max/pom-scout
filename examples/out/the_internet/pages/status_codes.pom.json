@@ -1,0 +1,91 @@
+{
+  "$schema": "pom-scout/pom-v1",
+  "version": "1.0.0",
+  "page_id": "status_codes",
+  "url_pattern": "/status_codes",
+  "last_verified": "2026-09-29T08:01:34Z",
+  "zones": {
+    "main": {
+      "elements": {
+        "a": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"https://github.com/tourdedave/the-internet\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "here": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"http://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "200": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"status_codes/200\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "301": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"status_codes/301\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "404": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"status_codes/404\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "500": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"status_codes/500\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "elemental_selenium": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"http://elementalselenium.com/\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        }
+      }
+    }
+  },
+  "unresolved_elements": []
+}

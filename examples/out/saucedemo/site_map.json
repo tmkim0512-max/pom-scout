@@ -1,0 +1,118 @@
+{
+  "target": "https://www.saucedemo.com",
+  "started_at": "2026-09-29T07:54:53Z",
+  "finished_at": "2026-09-29T07:56:18Z",
+  "visited": [
+    {
+      "url": "https://www.saucedemo.com/inventory.html",
+      "final_url": "https://www.saucedemo.com/inventory.html",
+      "status": 404,
+      "via": "entry",
+      "from": null
+    },
+    {
+      "url": "https://www.saucedemo.com/inventory-item.html?id=1",
+      "final_url": "https://www.saucedemo.com/inventory-item.html?id=1",
+      "status": 404,
+      "via": "click",
+      "from": "https://www.saucedemo.com/inventory.html"
+    },
+    {
+      "url": "https://www.saucedemo.com/dynamic-catalog-lazy-load.html",
+      "final_url": "https://www.saucedemo.com/dynamic-catalog-lazy-load.html",
+      "status": 404,
+      "via": "click",
+      "from": "https://www.saucedemo.com/inventory.html"
+    },
+    {
+      "url": "https://www.saucedemo.com/inventory-item.html?id=0",
+      "final_url": "https://www.saucedemo.com/inventory-item.html?id=0",
+      "status": 404,
+      "via": "click",
+      "from": "https://www.saucedemo.com/inventory.html"
+    },
+    {
+      "url": "https://www.saucedemo.com/dynamic-catalog-slider.html",
+      "final_url": "https://www.saucedemo.com/dynamic-catalog-slider.html",
+      "status": 404,
+      "via": "click",
+      "from": "https://www.saucedemo.com/inventory.html"
+    },
+    {
+      "url": "https://www.saucedemo.com/cart.html",
+      "final_url": "https://www.saucedemo.com/cart.html",
+      "status": 404,
+      "via": "click",
+      "from": "https://www.saucedemo.com/inventory.html"
+    },
+    {
+      "url": "https://www.saucedemo.com/dynamic-catalog-spinner.html",
+      "final_url": "https://www.saucedemo.com/dynamic-catalog-spinner.html",
+      "status": 404,
+      "via": "click",
+      "from": "https://www.saucedemo.com/inventory.html"
+    },
+    {
+      "url": "https://www.saucedemo.com/inventory-item.html?id=3",
+      "final_url": "https://www.saucedemo.com/inventory-item.html?id=3",
+      "status": 404,
+      "via": "click",
+      "from": "https://www.saucedemo.com/inventory.html"
+    },
+    {
+      "url": "https://www.saucedemo.com/inventory-item.html?id=5",
+      "final_url": "https://www.saucedemo.com/inventory-item.html?id=5",
+      "status": 404,
+      "via": "click",
+      "from": "https://www.saucedemo.com/inventory.html"
+    },
+    {
+      "url": "https://www.saucedemo.com/inventory-item.html?id=4",
+      "final_url": "https://www.saucedemo.com/inventory-item.html?id=4",
+      "status": 404,
+      "via": "click",
+      "from": "https://www.saucedemo.com/inventory.html"
+    },
+    {
+      "url": "https://www.saucedemo.com/inventory-item.html?id=2",
+      "final_url": "https://www.saucedemo.com/inventory-item.html?id=2",
+      "status": 404,
+      "via": "click",
+      "from": "https://www.saucedemo.com/inventory.html"
+    },
+    {
+      "url": "https://www.saucedemo.com/checkout-step-one.html",
+      "final_url": "https://www.saucedemo.com/checkout-step-one.html",
+      "status": 404,
+      "via": "click",
+      "from": "https://www.saucedemo.com/cart.html"
+    }
+  ],
+  "discovered": [],
+  "barren_triggers": [
+    {
+      "page": "https://www.saucedemo.com/inventory.html",
+      "trigger": "#react-burger-menu-btn > #inventory_sidebar_link",
+      "reason": "no_effect_after_click"
+    }
+  ],
+  "skipped_triggers": [
+    {
+      "page": "https://www.saucedemo.com/inventory.html",
+      "trigger": "#logout_sidebar_link",
+      "text": "Logout"
+    },
+    {
+      "page": "https://www.saucedemo.com/inventory.html",
+      "trigger": "#reset_sidebar_link",
+      "text": "Reset App State"
+    }
+  ],
+  "unaddressable_triggers": 0,
+  "axis_stats": {
+    "link_only": 0,
+    "click_only": 11,
+    "both": 0
+  },
+  "status": "PARTIAL"
+}

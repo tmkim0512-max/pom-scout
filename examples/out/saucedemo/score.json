@@ -1,0 +1,49 @@
+{
+  "pages": {
+    "golden": 14,
+    "found": 12,
+    "recall": 0.8571,
+    "missing": [
+      "/checkout-complete.html",
+      "/checkout-step-two.html"
+    ],
+    "not_in_golden": 0
+  },
+  "elements": {
+    "pages": {
+      "inventory": {
+        "golden": 7,
+        "found": 7,
+        "missing": []
+      },
+      "inventory_item": {
+        "golden": 4,
+        "found": 4,
+        "missing": []
+      },
+      "cart": {
+        "golden": 3,
+        "found": 3,
+        "missing": []
+      },
+      "checkout_step_one": {
+        "golden": 5,
+        "found": 5,
+        "missing": []
+      }
+    },
+    "golden": 19,
+    "found": 19,
+    "recall": 1.0
+  },
+  "selectors": {
+    "elements": 69,
+    "unresolved": 0,
+    "unique_ratio": 1.0,
+    "fallback_ge_2_ratio": 0.2174,
+    "primary_tier": {
+      "tier1": 69
+    },
+    "forbidden": 0
+  }
+}

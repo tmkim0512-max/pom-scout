@@ -1,0 +1,155 @@
+{
+  "$schema": "pom-scout/pom-v1",
+  "version": "1.0.0",
+  "page_id": "checkout_step_one",
+  "url_pattern": "/checkout-step-one.html",
+  "last_verified": "2026-09-29T07:56:48Z",
+  "zones": {
+    "header": {
+      "elements": {
+        "react_burger_menu_btn": {
+          "role": "button",
+          "selectors": [
+            "#react-burger-menu-btn"
+          ],
+          "strategies": [
+            "id"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "shopping_cart_link": {
+          "role": "button",
+          "selectors": [
+            "[data-test=\"shopping-cart-link\"]",
+            "a[aria-label=\"Cart, empty\"]"
+          ],
+          "strategies": [
+            "test_id",
+            "aria_label"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        }
+      }
+    },
+    "form": {
+      "elements": {
+        "firstname": {
+          "role": "input",
+          "selectors": [
+            "[data-test=\"firstName\"]",
+            "#first-name",
+            "input[name=\"firstName\"]"
+          ],
+          "strategies": [
+            "test_id",
+            "id",
+            "name"
+          ],
+          "match_count": 1
+        },
+        "lastname": {
+          "role": "input",
+          "selectors": [
+            "[data-test=\"lastName\"]",
+            "#last-name",
+            "input[name=\"lastName\"]"
+          ],
+          "strategies": [
+            "test_id",
+            "id",
+            "name"
+          ],
+          "match_count": 1
+        },
+        "postalcode": {
+          "role": "input",
+          "selectors": [
+            "[data-test=\"postalCode\"]",
+            "#postal-code",
+            "input[name=\"postalCode\"]"
+          ],
+          "strategies": [
+            "test_id",
+            "id",
+            "name"
+          ],
+          "match_count": 1
+        },
+        "cancel": {
+          "role": "button",
+          "selectors": [
+            "[data-test=\"cancel\"]",
+            "#cancel",
+            "button[name=\"cancel\"]"
+          ],
+          "strategies": [
+            "test_id",
+            "id",
+            "name"
+          ],
+          "match_count": 1
+        },
+        "continue": {
+          "role": "input",
+          "selectors": [
+            "[data-test=\"continue\"]",
+            "#continue",
+            "input[name=\"continue\"]"
+          ],
+          "strategies": [
+            "test_id",
+            "id",
+            "name"
+          ],
+          "match_count": 1
+        }
+      }
+    },
+    "footer": {
+      "elements": {
+        "social_x": {
+          "role": "a",
+          "selectors": [
+            "[data-test=\"social-x\"]",
+            "a[href=\"https://x.com/saucelabs\"]"
+          ],
+          "strategies": [
+            "test_id",
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "social_facebook": {
+          "role": "a",
+          "selectors": [
+            "[data-test=\"social-facebook\"]",
+            "a[href=\"https://www.facebook.com/saucelabs\"]"
+          ],
+          "strategies": [
+            "test_id",
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "social_linkedin": {
+          "role": "a",
+          "selectors": [
+            "[data-test=\"social-linkedin\"]",
+            "a[href=\"https://www.linkedin.com/company/sauce-labs/\"]"
+          ],
+          "strategies": [
+            "test_id",
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        }
+      }
+    }
+  },
+  "unresolved_elements": []
+}

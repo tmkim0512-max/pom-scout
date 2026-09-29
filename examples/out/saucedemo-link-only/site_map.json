@@ -1,0 +1,24 @@
+{
+  "target": "https://www.saucedemo.com",
+  "started_at": "2026-09-29T07:54:49Z",
+  "finished_at": "2026-09-29T07:54:52Z",
+  "visited": [
+    {
+      "url": "https://www.saucedemo.com/inventory.html",
+      "final_url": "https://www.saucedemo.com/inventory.html",
+      "status": 404,
+      "via": "entry",
+      "from": null
+    }
+  ],
+  "discovered": [],
+  "barren_triggers": [],
+  "skipped_triggers": [],
+  "unaddressable_triggers": 0,
+  "axis_stats": {
+    "link_only": 0,
+    "click_only": 0,
+    "both": 0
+  },
+  "status": "OK"
+}

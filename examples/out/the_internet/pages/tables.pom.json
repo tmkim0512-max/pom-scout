@@ -1,0 +1,133 @@
+{
+  "$schema": "pom-scout/pom-v1",
+  "version": "1.0.0",
+  "page_id": "tables",
+  "url_pattern": "/tables",
+  "last_verified": "2026-09-29T08:01:10Z",
+  "zones": {
+    "main": {
+      "elements": {
+        "a": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"https://github.com/tourdedave/the-internet\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "elemental_selenium": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"http://elementalselenium.com/\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        }
+      }
+    }
+  },
+  "unresolved_elements": [
+    {
+      "key": "edit",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "delete",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "edit_2",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "delete_2",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "edit_3",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "delete_3",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "edit_4",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "delete_4",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "edit_5",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "delete_5",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "edit_6",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "delete_6",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "edit_7",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "delete_7",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "edit_8",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "delete_8",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    }
+  ]
+}

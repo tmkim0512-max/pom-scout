@@ -1,0 +1,212 @@
+{
+  "$schema": "pom-scout/pom-v1",
+  "version": "1.0.0",
+  "page_id": "tinymce",
+  "url_pattern": "/tinymce",
+  "last_verified": "2026-09-29T08:01:28Z",
+  "zones": {
+    "main": {
+      "elements": {
+        "a": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"https://github.com/tourdedave/the-internet\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "undo": {
+          "role": "button",
+          "selectors": [
+            "button[aria-label=\"Undo\"]"
+          ],
+          "strategies": [
+            "aria_label"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "redo": {
+          "role": "button",
+          "selectors": [
+            "button[aria-label=\"Redo\"]"
+          ],
+          "strategies": [
+            "aria_label"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "formats": {
+          "role": "button",
+          "selectors": [
+            "button[aria-label=\"Formats\"]"
+          ],
+          "strategies": [
+            "aria_label"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "bold": {
+          "role": "button",
+          "selectors": [
+            "button[aria-label=\"Bold\"]"
+          ],
+          "strategies": [
+            "aria_label"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "italic": {
+          "role": "button",
+          "selectors": [
+            "button[aria-label=\"Italic\"]"
+          ],
+          "strategies": [
+            "aria_label"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "align_left": {
+          "role": "button",
+          "selectors": [
+            "button[aria-label=\"Align left\"]"
+          ],
+          "strategies": [
+            "aria_label"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "align_center": {
+          "role": "button",
+          "selectors": [
+            "button[aria-label=\"Align center\"]"
+          ],
+          "strategies": [
+            "aria_label"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "align_right": {
+          "role": "button",
+          "selectors": [
+            "button[aria-label=\"Align right\"]"
+          ],
+          "strategies": [
+            "aria_label"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "justify": {
+          "role": "button",
+          "selectors": [
+            "button[aria-label=\"Justify\"]"
+          ],
+          "strategies": [
+            "aria_label"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "decrease_indent": {
+          "role": "button",
+          "selectors": [
+            "button[aria-label=\"Decrease indent\"]"
+          ],
+          "strategies": [
+            "aria_label"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "increase_indent": {
+          "role": "button",
+          "selectors": [
+            "button[aria-label=\"Increase indent\"]"
+          ],
+          "strategies": [
+            "aria_label"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "powered_by_tiny": {
+          "role": "a",
+          "selectors": [
+            "a[aria-label=\"Powered by Tiny\"]",
+            "a[href=\"https://www.tiny.cloud/?utm_campaign=editor_referral&utm_medium=poweredby&utm_source=tinymce&utm_content=v5\"]"
+          ],
+          "strategies": [
+            "aria_label",
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "elemental_selenium": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"http://elementalselenium.com/\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "learn_more": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"https://www.tiny.cloud/docs/tinymce/latest/usage-based-billing/?utm_campaign=editor_blocked_learn_more&utm_source=tiny&utm_medium=referral\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        }
+      }
+    }
+  },
+  "unresolved_elements": [
+    {
+      "key": "file",
+      "tag": "button",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "edit",
+      "tag": "button",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "view",
+      "tag": "button",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "format",
+      "tag": "button",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "button",
+      "tag": "button",
+      "reason": "no_unique_selector",
+      "candidates": []
+    }
+  ]
+}

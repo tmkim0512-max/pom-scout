@@ -1,0 +1,60 @@
+{
+  "$schema": "pom-scout/pom-v1",
+  "version": "1.0.0",
+  "page_id": "jqueryui_menu",
+  "url_pattern": "/jqueryui/menu",
+  "last_verified": "2026-09-29T08:01:18Z",
+  "zones": {
+    "main": {
+      "elements": {
+        "a": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"https://github.com/tourdedave/the-internet\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "jquery_ui_menus": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"http://api.jqueryui.com/menu/\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "elemental_selenium": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"http://elementalselenium.com/\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        }
+      }
+    }
+  },
+  "unresolved_elements": [
+    {
+      "key": "disabled",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "enabled",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    }
+  ]
+}

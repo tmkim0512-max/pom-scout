@@ -1,0 +1,338 @@
+{
+  "$schema": "pom-scout/pom-v1",
+  "version": "1.0.0",
+  "page_id": "inventory",
+  "url_pattern": "/inventory.html",
+  "last_verified": "2026-09-29T07:56:38Z",
+  "zones": {
+    "header": {
+      "elements": {
+        "react_burger_menu_btn": {
+          "role": "button",
+          "selectors": [
+            "#react-burger-menu-btn"
+          ],
+          "strategies": [
+            "id"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "shopping_cart_link": {
+          "role": "button",
+          "selectors": [
+            "[data-test=\"shopping-cart-link\"]",
+            "a[aria-label=\"Cart, empty\"]"
+          ],
+          "strategies": [
+            "test_id",
+            "aria_label"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "product_sort_container": {
+          "role": "select",
+          "selectors": [
+            "[data-test=\"product-sort-container\"]",
+            "select[aria-label=\"Sort products\"]"
+          ],
+          "strategies": [
+            "test_id",
+            "aria_label"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        }
+      }
+    },
+    "main": {
+      "elements": {
+        "item_4_img_link": {
+          "role": "button",
+          "selectors": [
+            "[data-test=\"item-4-img-link\"]",
+            "#item_4_img_link"
+          ],
+          "strategies": [
+            "test_id",
+            "id"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "item_4_title_link": {
+          "role": "button",
+          "selectors": [
+            "[data-test=\"item-4-title-link\"]",
+            "#item_4_title_link"
+          ],
+          "strategies": [
+            "test_id",
+            "id"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "add_to_cart_sauce_labs_backpack": {
+          "role": "button",
+          "selectors": [
+            "[data-test=\"add-to-cart-sauce-labs-backpack\"]",
+            "#add-to-cart-sauce-labs-backpack",
+            "button[name=\"add-to-cart-sauce-labs-backpack\"]"
+          ],
+          "strategies": [
+            "test_id",
+            "id",
+            "name"
+          ],
+          "match_count": 1
+        },
+        "item_0_img_link": {
+          "role": "button",
+          "selectors": [
+            "[data-test=\"item-0-img-link\"]",
+            "#item_0_img_link"
+          ],
+          "strategies": [
+            "test_id",
+            "id"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "item_0_title_link": {
+          "role": "button",
+          "selectors": [
+            "[data-test=\"item-0-title-link\"]",
+            "#item_0_title_link"
+          ],
+          "strategies": [
+            "test_id",
+            "id"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "add_to_cart_sauce_labs_bike_light": {
+          "role": "button",
+          "selectors": [
+            "[data-test=\"add-to-cart-sauce-labs-bike-light\"]",
+            "#add-to-cart-sauce-labs-bike-light",
+            "button[name=\"add-to-cart-sauce-labs-bike-light\"]"
+          ],
+          "strategies": [
+            "test_id",
+            "id",
+            "name"
+          ],
+          "match_count": 1
+        },
+        "item_1_img_link": {
+          "role": "button",
+          "selectors": [
+            "[data-test=\"item-1-img-link\"]",
+            "#item_1_img_link"
+          ],
+          "strategies": [
+            "test_id",
+            "id"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "item_1_title_link": {
+          "role": "button",
+          "selectors": [
+            "[data-test=\"item-1-title-link\"]",
+            "#item_1_title_link"
+          ],
+          "strategies": [
+            "test_id",
+            "id"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "add_to_cart_sauce_labs_bolt_t_shirt": {
+          "role": "button",
+          "selectors": [
+            "[data-test=\"add-to-cart-sauce-labs-bolt-t-shirt\"]",
+            "#add-to-cart-sauce-labs-bolt-t-shirt",
+            "button[name=\"add-to-cart-sauce-labs-bolt-t-shirt\"]"
+          ],
+          "strategies": [
+            "test_id",
+            "id",
+            "name"
+          ],
+          "match_count": 1
+        },
+        "item_5_img_link": {
+          "role": "button",
+          "selectors": [
+            "[data-test=\"item-5-img-link\"]",
+            "#item_5_img_link"
+          ],
+          "strategies": [
+            "test_id",
+            "id"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "item_5_title_link": {
+          "role": "button",
+          "selectors": [
+            "[data-test=\"item-5-title-link\"]",
+            "#item_5_title_link"
+          ],
+          "strategies": [
+            "test_id",
+            "id"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "add_to_cart_sauce_labs_fleece_jacket": {
+          "role": "button",
+          "selectors": [
+            "[data-test=\"add-to-cart-sauce-labs-fleece-jacket\"]",
+            "#add-to-cart-sauce-labs-fleece-jacket",
+            "button[name=\"add-to-cart-sauce-labs-fleece-jacket\"]"
+          ],
+          "strategies": [
+            "test_id",
+            "id",
+            "name"
+          ],
+          "match_count": 1
+        },
+        "item_2_img_link": {
+          "role": "button",
+          "selectors": [
+            "[data-test=\"item-2-img-link\"]",
+            "#item_2_img_link"
+          ],
+          "strategies": [
+            "test_id",
+            "id"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "item_2_title_link": {
+          "role": "button",
+          "selectors": [
+            "[data-test=\"item-2-title-link\"]",
+            "#item_2_title_link"
+          ],
+          "strategies": [
+            "test_id",
+            "id"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "add_to_cart_sauce_labs_onesie": {
+          "role": "button",
+          "selectors": [
+            "[data-test=\"add-to-cart-sauce-labs-onesie\"]",
+            "#add-to-cart-sauce-labs-onesie",
+            "button[name=\"add-to-cart-sauce-labs-onesie\"]"
+          ],
+          "strategies": [
+            "test_id",
+            "id",
+            "name"
+          ],
+          "match_count": 1
+        },
+        "item_3_img_link": {
+          "role": "button",
+          "selectors": [
+            "[data-test=\"item-3-img-link\"]",
+            "#item_3_img_link"
+          ],
+          "strategies": [
+            "test_id",
+            "id"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "item_3_title_link": {
+          "role": "button",
+          "selectors": [
+            "[data-test=\"item-3-title-link\"]",
+            "#item_3_title_link"
+          ],
+          "strategies": [
+            "test_id",
+            "id"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "add_to_cart_test_allthethings_t_shirt_red": {
+          "role": "button",
+          "selectors": [
+            "[data-test=\"add-to-cart-test.allthethings()-t-shirt-(red)\"]",
+            "#add-to-cart-test\\.allthethings\\(\\)-t-shirt-\\(red\\)",
+            "button[name=\"add-to-cart-test.allthethings()-t-shirt-(red)\"]"
+          ],
+          "strategies": [
+            "test_id",
+            "id",
+            "name"
+          ],
+          "match_count": 1
+        }
+      }
+    },
+    "footer": {
+      "elements": {
+        "social_x": {
+          "role": "a",
+          "selectors": [
+            "[data-test=\"social-x\"]",
+            "a[href=\"https://x.com/saucelabs\"]"
+          ],
+          "strategies": [
+            "test_id",
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "social_facebook": {
+          "role": "a",
+          "selectors": [
+            "[data-test=\"social-facebook\"]",
+            "a[href=\"https://www.facebook.com/saucelabs\"]"
+          ],
+          "strategies": [
+            "test_id",
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "social_linkedin": {
+          "role": "a",
+          "selectors": [
+            "[data-test=\"social-linkedin\"]",
+            "a[href=\"https://www.linkedin.com/company/sauce-labs/\"]"
+          ],
+          "strategies": [
+            "test_id",
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        }
+      }
+    }
+  },
+  "unresolved_elements": []
+}

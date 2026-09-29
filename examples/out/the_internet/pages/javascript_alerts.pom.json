@@ -1,0 +1,55 @@
+{
+  "$schema": "pom-scout/pom-v1",
+  "version": "1.0.0",
+  "page_id": "javascript_alerts",
+  "url_pattern": "/javascript_alerts",
+  "last_verified": "2026-09-29T08:01:02Z",
+  "zones": {
+    "main": {
+      "elements": {
+        "a": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"https://github.com/tourdedave/the-internet\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "elemental_selenium": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"http://elementalselenium.com/\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        }
+      }
+    }
+  },
+  "unresolved_elements": [
+    {
+      "key": "click_for_js_alert",
+      "tag": "button",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "click_for_js_confirm",
+      "tag": "button",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "click_for_js_prompt",
+      "tag": "button",
+      "reason": "no_unique_selector",
+      "candidates": []
+    }
+  ]
+}

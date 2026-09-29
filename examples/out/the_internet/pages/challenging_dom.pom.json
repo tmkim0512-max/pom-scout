@@ -1,0 +1,190 @@
+{
+  "$schema": "pom-scout/pom-v1",
+  "version": "1.0.0",
+  "page_id": "challenging_dom",
+  "url_pattern": "/challenging_dom",
+  "last_verified": "2026-09-29T08:01:21Z",
+  "zones": {
+    "main": {
+      "elements": {
+        "a": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"https://github.com/tourdedave/the-internet\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "e13c2d20_9e09_013f_0f6a_2e8ba6a5537a": {
+          "role": "a",
+          "selectors": [
+            "#e13c2d20-9e09-013f-0f6a-2e8ba6a5537a"
+          ],
+          "strategies": [
+            "id"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "e13c6800_9e09_013f_0f6b_2e8ba6a5537a": {
+          "role": "a",
+          "selectors": [
+            "#e13c6800-9e09-013f-0f6b-2e8ba6a5537a"
+          ],
+          "strategies": [
+            "id"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "e13ca0a0_9e09_013f_0f6c_2e8ba6a5537a": {
+          "role": "a",
+          "selectors": [
+            "#e13ca0a0-9e09-013f-0f6c-2e8ba6a5537a"
+          ],
+          "strategies": [
+            "id"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "elemental_selenium": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"http://elementalselenium.com/\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        }
+      }
+    }
+  },
+  "unresolved_elements": [
+    {
+      "key": "edit",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "delete",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "edit_2",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "delete_2",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "edit_3",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "delete_3",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "edit_4",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "delete_4",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "edit_5",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "delete_5",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "edit_6",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "delete_6",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "edit_7",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "delete_7",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "edit_8",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "delete_8",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "edit_9",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "delete_9",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "edit_10",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    },
+    {
+      "key": "delete_10",
+      "tag": "a",
+      "reason": "no_unique_selector",
+      "candidates": []
+    }
+  ]
+}

@@ -1,0 +1,57 @@
++(eval):3> date -u
+2026년  9월 29일 화요일 07시 54분 49초 UTC
++(eval):3> .venv/bin/python -c 'import importlib.metadata as m, sys; print('\''python'\'', sys.version.split()[0], '\''playwright'\'', m.version('\''playwright'\''))'
+python 3.12.13 playwright 1.63.0
++(eval):4> P=.venv/bin/pom-scout 
++(eval):4> E=examples/out 
++(eval):5> .venv/bin/pom-scout explore targets/saucedemo.yaml --out examples/out/saucedemo-link-only --no-click
+visited=1 discovered=0 axis={'link_only': 0, 'click_only': 0, 'both': 0} barren=0 skipped_unsafe_triggers=0 status=OK
++(eval):5> echo 'exit=0'
+exit=0
++(eval):6> .venv/bin/pom-scout score targets/saucedemo.yaml --out examples/out/saucedemo-link-only --pages golden/saucedemo.pages.yaml
++(eval):6> echo 'exit=0'
+exit=0
++(eval):7> .venv/bin/pom-scout explore targets/saucedemo.yaml --out examples/out/saucedemo
+visited=12 discovered=0 axis={'link_only': 0, 'click_only': 11, 'both': 0} barren=1 skipped_unsafe_triggers=2 status=PARTIAL
++(eval):7> echo 'exit=2'
+exit=2
++(eval):8> .venv/bin/pom-scout judge targets/saucedemo.yaml --out examples/out/saucedemo
+candidates=13 {'GONE': 1, 'REACHED': 12}
++(eval):8> echo 'exit=0'
+exit=0
++(eval):9> cp examples/out/saucedemo/site_map.json examples/out/saucedemo-no-session/
++(eval):10> .venv/bin/pom-scout judge targets/saucedemo.yaml --out examples/out/saucedemo-no-session --no-login
+candidates=13 {'UNDECIDED': 13}
++(eval):10> echo 'exit=2'
+exit=2
++(eval):11> .venv/bin/pom-scout collect targets/saucedemo.yaml --out examples/out/saucedemo
+pages=7/7 failed=[]
++(eval):11> echo 'exit=0'
+exit=0
++(eval):12> .venv/bin/pom-scout score targets/saucedemo.yaml --out examples/out/saucedemo --pages golden/saucedemo.pages.yaml --elements golden/saucedemo.elements.yaml
++(eval):12> echo 'exit=0'
+exit=0
++(eval):13> .venv/bin/pom-scout explore targets/the_internet.yaml --out examples/out/the_internet-link-only --no-click
+visited=44 discovered=112 axis={'link_only': 156, 'click_only': 0, 'both': 0} barren=0 skipped_unsafe_triggers=0 status=OK
++(eval):13> echo 'exit=0'
+exit=0
++(eval):14> .venv/bin/pom-scout score targets/the_internet.yaml --out examples/out/the_internet-link-only --pages golden/the_internet.pages.yaml
++(eval):14> echo 'exit=0'
+exit=0
++(eval):15> .venv/bin/pom-scout explore targets/the_internet.yaml --out examples/out/the_internet
+visited=44 discovered=115 axis={'link_only': 159, 'click_only': 0, 'both': 0} barren=1 skipped_unsafe_triggers=1 status=PARTIAL
++(eval):15> echo 'exit=2'
+exit=2
++(eval):16> .venv/bin/pom-scout judge targets/the_internet.yaml --out examples/out/the_internet
+candidates=162 {'DUPLICATE': 1, 'EMPTY': 1, 'GONE': 9, 'LOGIN_WALL': 1, 'PERMISSION_WALL': 3, 'REACHED': 52, 'SKIPPED_UNSAFE': 2, 'UNDECIDED': 93}
++(eval):16> echo 'exit=2'
+exit=2
++(eval):17> .venv/bin/pom-scout collect targets/the_internet.yaml --out examples/out/the_internet
+pages=51/51 failed=[]
++(eval):17> echo 'exit=0'
+exit=0
++(eval):18> .venv/bin/pom-scout score targets/the_internet.yaml --out examples/out/the_internet --pages golden/the_internet.pages.yaml --dispositions golden/the_internet.dispositions.yaml
++(eval):18> echo 'exit=0'
+exit=0
++(eval):19> date -u
+2026년  9월 29일 화요일 08시 01분 56초 UTC

@@ -1,0 +1,9 @@
+{
+  "$schema": "pom-scout/pom-v1",
+  "version": "1.0.0",
+  "page_id": "javascript_error",
+  "url_pattern": "/javascript_error",
+  "last_verified": "2026-09-29T08:01:24Z",
+  "zones": {},
+  "unresolved_elements": []
+}

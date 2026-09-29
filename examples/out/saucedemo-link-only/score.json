@@ -1,0 +1,23 @@
+{
+  "pages": {
+    "golden": 14,
+    "found": 1,
+    "recall": 0.0714,
+    "missing": [
+      "/cart.html",
+      "/checkout-complete.html",
+      "/checkout-step-one.html",
+      "/checkout-step-two.html",
+      "/dynamic-catalog-lazy-load.html",
+      "/dynamic-catalog-slider.html",
+      "/dynamic-catalog-spinner.html",
+      "/inventory-item.html?id=0",
+      "/inventory-item.html?id=1",
+      "/inventory-item.html?id=2",
+      "/inventory-item.html?id=3",
+      "/inventory-item.html?id=4",
+      "/inventory-item.html?id=5"
+    ],
+    "not_in_golden": 0
+  }
+}

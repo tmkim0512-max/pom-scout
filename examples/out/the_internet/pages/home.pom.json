@@ -1,0 +1,520 @@
+{
+  "$schema": "pom-scout/pom-v1",
+  "version": "1.0.0",
+  "page_id": "home",
+  "url_pattern": "/",
+  "last_verified": "2026-09-29T08:00:59Z",
+  "zones": {
+    "main": {
+      "elements": {
+        "a": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"https://github.com/tourdedave/the-internet\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "a_b_testing": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/abtest\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "add_remove_elements": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/add_remove_elements/\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "basic_auth": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/basic_auth\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "broken_images": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/broken_images\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "challenging_dom": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/challenging_dom\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "checkboxes": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/checkboxes\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "context_menu": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/context_menu\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "digest_authentication": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/digest_auth\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "disappearing_elements": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/disappearing_elements\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "drag_and_drop": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/drag_and_drop\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "dropdown": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/dropdown\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "dynamic_content": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/dynamic_content\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "dynamic_controls": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/dynamic_controls\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "dynamic_loading": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/dynamic_loading\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "entry_ad": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/entry_ad\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "exit_intent": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/exit_intent\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "file_download": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/download\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "file_upload": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/upload\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "floating_menu": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/floating_menu\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "forgot_password": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/forgot_password\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "form_authentication": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/login\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "frames": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/frames\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "geolocation": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/geolocation\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "horizontal_slider": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/horizontal_slider\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "hovers": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/hovers\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "infinite_scroll": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/infinite_scroll\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "inputs": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/inputs\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "jquery_ui_menus": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/jqueryui/menu\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "javascript_alerts": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/javascript_alerts\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "javascript_onload_event_error": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/javascript_error\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "key_presses": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/key_presses\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "large_deep_dom": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/large\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "multiple_windows": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/windows\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "nested_frames": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/nested_frames\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "notification_messages": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/notification_message\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "redirect_link": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/redirector\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "secure_file_download": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/download_secure\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "shadow_dom": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/shadowdom\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "shifting_content": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/shifting_content\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "slow_resources": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/slow\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "sortable_data_tables": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/tables\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "status_codes": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/status_codes\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "typos": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/typos\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "wysiwyg_editor": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"/tinymce\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        },
+        "elemental_selenium": {
+          "role": "a",
+          "selectors": [
+            "a[href=\"http://elementalselenium.com/\"]"
+          ],
+          "strategies": [
+            "href"
+          ],
+          "match_count": 1,
+          "fallback_short": true
+        }
+      }
+    }
+  },
+  "unresolved_elements": []
+}
