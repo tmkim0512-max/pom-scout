@@ -1,0 +1,10 @@
+# Public collection of test pages. No login: /secure is expected to bounce to /login.
+name: the_internet
+base_url: https://the-internet.herokuapp.com
+entry: /
+max_pages: 60
+max_depth: 1
+markers:
+  LOGIN_WALL: {url: "/login$"}
+controls: {positive: /login, negative: /no-such-page-pom-scout, every: 10}
+extra_candidates: [/secure, /logout, /no-such-page-pom-scout-2]

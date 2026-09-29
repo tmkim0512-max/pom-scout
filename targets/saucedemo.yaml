@@ -1,0 +1,23 @@
+# Public demo shop. Credentials are the public test account printed on its login page:
+#   export SAUCE_USERNAME=standard_user SAUCE_PASSWORD=secret_sauce
+name: saucedemo
+base_url: https://www.saucedemo.com
+entry: /inventory.html
+login:
+  url: /
+  fill:
+    "[data-test=username]": "$SAUCE_USERNAME"
+    "[data-test=password]": "$SAUCE_PASSWORD"
+  submit: "[data-test=login-button]"
+  wait_url: "**/inventory.html"
+click_triggers: ["#react-burger-menu-btn", "[data-test=checkout]"]
+max_pages: 30
+settle_ms: 1500  # the side menu is briefly visible before the app hides it
+max_depth: 3
+# The host answers HTTP 404 for every deep link, even ones that render fine, so status codes carry no signal here.
+http_status_reliable: false
+markers:
+  LOGIN_WALL: {text: "when you are logged in"}
+  GONE: {text: "ITEM NOT FOUND"}
+controls: {positive: /inventory.html, negative: /no-such-page-pom-scout.html, every: 10}
+extra_candidates: ["/inventory-item.html?id=999"]

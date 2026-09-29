@@ -1,0 +1,22 @@
+<!doctype html>
+<html><head><title>accordion</title></head>
+<body>
+<nav>
+  <a href="#" id="menu_1">Menu 1</a>
+  <a href="#" id="menu_2">Menu 2</a>
+  <a href="#" id="menu_3">Menu 3</a>
+  <a href="#" id="logout">Logout</a>
+  <a href="plain.html">Plain page</a>
+  <a href="logout">Sign out</a>
+</nav>
+<!-- Opening one menu replaces the previous submenu, like an accordion. Submenu links use relative hrefs. -->
+<div id="submenu"></div>
+<main><a href="#" id="product_link" onclick="location.href='detail.html'; return false;">Product</a></main>
+<script>
+  for (const i of [1, 2, 3]) document.getElementById('menu_' + i).addEventListener('click', e => {
+    e.preventDefault();
+    document.getElementById('submenu').innerHTML = `<a href="sub/${i}-a.html">${i}a</a> <a href="sub/${i}-b.html">${i}b</a>`;
+  });
+  document.getElementById('logout').addEventListener('click', () => { document.body.innerHTML = 'logged out'; });
+</script>
+</body></html>

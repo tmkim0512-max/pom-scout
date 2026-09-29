@@ -1,0 +1,7 @@
+# Hand-picked 2026-09-29 from DevTools: elements a tester needs on each page, keyed by their data-test/id in snake_case.
+inventory:
+  [react_burger_menu_btn, shopping_cart_link, product_sort_container, item_4_title_link, item_4_img_link,
+   add_to_cart_sauce_labs_backpack, add_to_cart_sauce_labs_onesie]
+inventory_item: [react_burger_menu_btn, shopping_cart_link, back_to_products, add_to_cart]
+cart: [shopping_cart_link, continue_shopping, checkout]
+checkout_step_one: [firstname, lastname, postalcode, cancel, continue]

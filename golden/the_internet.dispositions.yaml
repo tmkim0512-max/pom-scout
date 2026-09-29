@@ -1,0 +1,54 @@
+# Hand-written 2026-09-29. Expected verdict a person would give after `curl -s -o /dev/null -w '%{http_code} %{redirect_url}'`
+# and a look at the page in a browser. Written before running pom-scout judge.
+/basic_auth: PERMISSION_WALL          # 401
+/digest_auth: PERMISSION_WALL         # 401
+/download_secure: PERMISSION_WALL     # 401
+/secure: LOGIN_WALL                   # 302 -> /login
+/redirect: DUPLICATE                  # 302 -> /status_codes, which is already a candidate
+/status_codes/200: REACHED
+/status_codes/301: REACHED            # 301 without Location; the page itself renders
+/status_codes/404: GONE
+/status_codes/500: UNDECIDED          # server error: the page may exist, we cannot tell
+/no-such-page-pom-scout-2: GONE       # 404
+/logout: SKIPPED_UNSAFE               # would end a session; never visited
+/nested_frames: REACHED               # frameset page: content lives in frames
+/notification_message: REACHED        # 302 -> /notification_message_rendered (a real page)
+/abtest: REACHED
+/add_remove_elements/: REACHED
+/broken_images: REACHED
+/challenging_dom: REACHED
+/checkboxes: REACHED
+/context_menu: REACHED
+/disappearing_elements: REACHED
+/drag_and_drop: REACHED
+/dropdown: REACHED
+/dynamic_content: REACHED
+/dynamic_controls: REACHED
+/dynamic_loading: REACHED
+/entry_ad: REACHED
+/exit_intent: REACHED
+/download: REACHED
+/upload: REACHED
+/floating_menu: REACHED
+/forgot_password: REACHED
+/login: REACHED
+/frames: REACHED
+/geolocation: REACHED
+/horizontal_slider: REACHED
+/hovers: REACHED
+/infinite_scroll: REACHED
+/inputs: REACHED
+/jqueryui/menu: REACHED
+/javascript_alerts: REACHED
+/javascript_error: REACHED
+/key_presses: REACHED
+/large: REACHED
+/windows: REACHED
+/redirector: REACHED
+/shadowdom: REACHED
+/shifting_content: REACHED
+/slow: REACHED
+/tables: REACHED
+/status_codes: REACHED
+/typos: REACHED
+/tinymce: REACHED

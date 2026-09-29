@@ -1,0 +1,17 @@
+# Hand-written 2026-09-29 by walking the app as standard_user in a browser (not from pom-scout output).
+# Scope: pages a logged-in user can open. The login page itself is excluded.
+# Do not regenerate this file from collector output: that would make recall compare the tool with itself.
+- /inventory.html
+- /inventory-item.html?id=0
+- /inventory-item.html?id=1
+- /inventory-item.html?id=2
+- /inventory-item.html?id=3
+- /inventory-item.html?id=4
+- /inventory-item.html?id=5
+- /cart.html
+- /checkout-step-one.html
+- /checkout-step-two.html
+- /checkout-complete.html
+- /dynamic-catalog-lazy-load.html
+- /dynamic-catalog-spinner.html
+- /dynamic-catalog-slider.html
